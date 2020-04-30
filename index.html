@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+	<head>
+		
+        <title>Atividade 02</title>
+        <meta charset="utf-8">
+        <link href="estilo.css" rel="stylesheet" type="text/css"> 
+	<head>
+	<body>
+        <div class="container">
+		<div class="TextoAtividade">
+		<h1> Atividade  02 - Cadastro de Produto </h1>
+
+	    </div>
+
+		<div id ="TextoForm">
+
+		<p id="TextoForm2"> formulário html, css e javascript </p> 
+		</div>
+		
+		<div class = "">
+			
+		<h2  id="TextoForm2">Insira as informações dos Produtos</h2>
+
+		</div>
+
+		<form name="formcontato">
+			Nome: <input type="text" name="nome" placeholder="preencher" required></br></br>
+			Preco: <input type="float" name="preco" placeholder="preencher" required></br></br>
+			Quantidade: <input type="number" name="quantidade" placeholder="preencher" required></br></br>
+			Data atual: <input type="date"name="dataatual" placeholder="preencher" id="dtAtual"required></br></br>	
+			Data de Validade: <input type="date"name="validade" placeholder="preencher" id="dtVal"required></br></br>	
+			Inserir Foto do Produto: <input type="file"name="fotoproduto" placeholder="preencher" required></br></br>	
+			
+            <label for="categoria">Categoria do produto: </label>
+            <select id ="cat" name="selecione_uma_categoria" required>
+                    <option >Selecione...</option>
+                    <option value="laticinios">Latícinios</option>
+                    <option value="bebidas">bebidas</option>
+                    <option value="higiene">Higiene</option>
+                    <option value="frutas">Frutas</option>
+                    <option value="carnes">Carnes</option>
+                    <option value="farinhas">Farinhas</option>
+                    <option value="limpeza">Limpeza</option>
+                    <option value="padaria">Padaria</option>
+                    <option value="graos e cereais">Graos e Cereais</option>
+                    <option value="legumes">Legumes</option>
+     
+            </select>  
+            <br> 
+			<br>
+			<br>
+            <input type="submit" value="Enviar" onclick="validar_form_contato()">	
+        </form>
+        </div>
+        <script type="text/javascript" src="javascript.js"></script>
+	</body>
+
+</html>
