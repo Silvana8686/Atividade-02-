@@ -1,0 +1,38 @@
+.container{
+    width: 1500px;
+    
+}
+.TextoAtividade{
+    font-size: 20px;
+    width: auto;
+    height: 150px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+   } 
+  #TextoForm{
+    background-color: yellow;
+    color: gray;
+    font-size: 60px;
+    border: 3px dashed #0F0;
+    width: auto;
+    height: 150px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+   } 
+   
+   #TextoForm2{
+    color:blue;
+    background-color:gray;
+    font-size:35px;
+    border-width: 3px;
+    border-style: dashed;
+    border-color: #0F0;
+   }
+
+    h2 {color:red;font-size: 20px;}
+    h2 {background-color:gray;font-size:60px;}
+
+ 
+
